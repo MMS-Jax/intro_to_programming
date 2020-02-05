@@ -39,10 +39,10 @@ user3 = user0[8:len(user0)]
 user4 = user3 + user2 + user1
 
 print("Your parents really named you",user4,"?\n")
-name_correct = input("Is this really what I should call you?  [Yes/No?]\n") # Create the variable name_correct and assign it a value. 
+name_correct = input("Is this really what I should call you?  [Type Yes or No, then press ENTER.]\n") # Create the variable name_correct and assign it a value. 
 name_correct = name_correct[0] # This assigns the name_correct variable to JUST the first letter of the user's answer. 
 name_correct = str.lower(name_correct) # This assigns the name_correct variable to the lower case version of that first letter.
-# It works! print(name_correct)
+
 time.sleep(2) # Pause for two seconds. 
 
 
@@ -112,5 +112,6 @@ else:
 
     
 # We will work together to write one more if / else statement for practice.  
+
 
 
