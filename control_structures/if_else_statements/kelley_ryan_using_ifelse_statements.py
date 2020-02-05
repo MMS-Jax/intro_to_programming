@@ -39,7 +39,7 @@ user3 = user0[8:len(user0)]
 user4 = user3 + user2 + user1
 
 print("Your parents really named you",user4,"?\n")
-name_correct = input("Is what really what I should call you?  [Yes/No?]\n") # Create the variable name_correct and assign it a value. 
+name_correct = input("Is this really what I should call you?  [Yes/No?]\n") # Create the variable name_correct and assign it a value. 
 name_correct = name_correct[0] # This assigns the name_correct variable to JUST the first letter of the user's answer. 
 name_correct = str.lower(name_correct) # This assigns the name_correct variable to the lower case version of that first letter.
 # It works! print(name_correct)
@@ -107,11 +107,10 @@ elif dice_roll_2d6 == 12:
     print("The sixes you rolled were double, now your teeth are in trouble.\n")
     print("Please ask for a Caramel Creme AND a Tootsie Roll.\n")
 else:
-    print("Error.  Does not compute!  You did not enter a number from 1-6.  Please restart the program.\n")
+    print("Error.  Does not compute!  You did not enter a number from 2-12.  Please restart the program.\n")
     exit()
 
     
 # We will work together to write one more if / else statement for practice.  
-
 
 
