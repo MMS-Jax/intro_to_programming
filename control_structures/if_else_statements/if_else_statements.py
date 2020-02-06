@@ -117,11 +117,13 @@ else:
 
     
 # We will work together to write one more if / else statement for practice.  
-#if ____________: # Conditional Statement
+my_variable = input("Please roll a die and enter the number rolled.  Then press enter.")
+
+if my_variable == 1: # Conditional Statement
+    print("Please stand up and cluck like a chicken.") 
+elif my_variable :
     # Code to run.
-#elif __________:
-    # Code to run.
-#else:
+else:
     # Code to run.
 
 
