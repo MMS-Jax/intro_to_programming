@@ -1,6 +1,4 @@
 # Using if / else Statements, Ryan Kelley, February 05, 2020.  Version 0.4
-
-
 import random # This is a special library built-in to Python.  It has special methods, in this case .shuffle() that I will use in this code. 
 import time # This lets us call the sleep() method which pauses the program for a specified number of seconds.
 print("*###############################################################*")
@@ -14,6 +12,7 @@ print("*###############################################################*")
 print("Hello $user, this program will help you learn how to use if / else statements in your code.  If you have any questions while using this program please raise your hand.  The human lifeform in charge of class can assist you.\n")
 print("$user, I hope you think I am a useful program.  I will pause at times so you can read my output.  You can change how long I will pause.\n")
 time.sleep(2)
+print("I will pause at certain points in the program so you can read my instructions.")
 wait_time = input("How many seconds should I pause $user?  Please enter a whole number and press [ENTER].  You cannot change this without restarting the program.\n")
 wait_time = int(wait_time)
 print("Ok $user, when I pause I will do so for",wait_time,"seconds.\n")
@@ -115,6 +114,13 @@ else:
         x += -1
     exit()
 
+y = 5
+while y != 0:
+    print("This is the end of the program.  I will exit in",x,"seconds.\n")
+    time.sleep(1)
+    y += -1
+print("After closing the program, begin reading through the actual code until everyone else is finished.\n")
+exit() 
     
 
 
