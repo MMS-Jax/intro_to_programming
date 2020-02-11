@@ -17,7 +17,7 @@ time.sleep(2)
 wait_time = input("How many seconds should I pause $user?  Please enter a whole number and press [ENTER].  You cannot change this without restarting the program.\n")
 wait_time = int(wait_time)
 print("Ok $user, when I pause I will do so for",wait_time,"seconds.\n")
-user0 = str(input("$user, by what name should I call you?  Please, type your firt and last name and then press ENTER on your keyboard.\n")) # Create a variable named user and assign it a value.
+user0 = str(input("$user, by what name should I call you?  Please, type your first and last name and then press ENTER on your keyboard.\n")) # Create a variable named user and assign it a value.
 # In Python, = is the English equivalent of "Make the thing on the left have the same value as the thing on the right."  
 print("Give me a second to write that down...\n")
 time.sleep(wait_time) # Pause.
