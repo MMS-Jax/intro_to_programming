@@ -116,7 +116,7 @@ else:
 
 y = 5
 while y != 0:
-    print("This is the end of the program.  I will exit in",x,"seconds.\n")
+    print("This is the end of the program.  I will exit in",y,"seconds.\n")
     time.sleep(1)
     y += -1
 print("After closing the program, begin reading through the actual code until everyone else is finished.\n")
