@@ -23,5 +23,6 @@ time.sleep(2)
 print("Next I will add the two floats together.") 
 print(my_float + my_float) 
 
-print(my_int + my_float) 
+print(my_int + my_float)
+print(my_int + my_string) 
 
