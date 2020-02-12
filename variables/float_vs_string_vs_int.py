@@ -24,5 +24,9 @@ print("Next I will add the two floats together.")
 print(my_float + my_float) 
 
 print(my_int + my_float)
-print(my_int + my_string) 
+print(my_int + my_string)
+
+float = 3.14
+my_string1 = "3.14"
+
 
