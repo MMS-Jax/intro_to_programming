@@ -2,22 +2,28 @@
 import random # This is a special library built-in to Python.  It has special methods, in this case .shuffle() that I will use in this code. 
 import time # This lets us call the sleep() method which pauses the program for a specified number of seconds.
 print("*###############################################################*")
-print("[            Working with if / else Statements $Version 0.4$    ]")
+print("[            Working with if / else Statements $Version 0.55$   ]")
 print("[                              by                               ]")
 print("[                          Ryan Kelley                          ]")
-print("[                      February 05, 2020                        ]")
+print("[                      February 27, 2020                        ]")
 print("[                                                               ]")
 print("[                                                               ]")
 print("*###############################################################*")
 print("Hello $user, this program will help you learn how to use if / else statements in your code.  If you have any questions while using this program please raise your hand.  The human lifeform in charge of class can assist you.\n")
+print("YOU DO NOT NEED TO CLICK THE MOUSE WHILE USING THIS PROGRAM.")
+time.sleep(2)
 print("$user, I hope you think I am a useful program.  I will pause at times so you can read my output.  You can change how long I will pause.\n")
 time.sleep(2)
 print("I will pause at certain points in the program so you can read my instructions.")
+time.sleep(2)
 wait_time = input("How many seconds should I pause $user?  Please enter a whole number and press [ENTER].  You cannot change this without restarting the program.\n")
 wait_time = int(wait_time)
 print("Ok $user, when I pause I will do so for",wait_time,"seconds.\n")
-user0 = str(input("$user, by what name should I call you?  Please, type your first and last name and then press ENTER on your keyboard.\n")) # Create a variable named user and assign it a value.
+
 # In Python, = is the English equivalent of "Make the thing on the left have the same value as the thing on the right."  
+# The next line will create a variable named user0 and then ASSIGN it a value.
+user0 = str(input("$user, by what name should I call you?  Please, type your first and last name and then press ENTER on your keyboard.\n")) # Create a variable named user and assign it a value.
+
 print("Give me a second to write that down...\n")
 time.sleep(wait_time) # Pause.
 
