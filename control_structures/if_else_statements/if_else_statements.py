@@ -1,4 +1,7 @@
-# Using if / else Statements, Ryan Kelley, February 05, 2020.  Version 0.4
+# Using if / else Statements, Ryan Kelley, February 27, 2020.  Version 0.55
+# Things to Do:
+# 1.) Move to function based programming.
+# 2.) 
 import random # This is a special library built-in to Python.  It has special methods, in this case .shuffle() that I will use in this code. 
 import time # This lets us call the sleep() method which pauses the program for a specified number of seconds.
 print("*###############################################################*")
@@ -30,10 +33,14 @@ time.sleep(wait_time) # Pause.
 # The following lines of code create three slices of the user name and then rearranges them.  Remember you start counting at 0! 
 user1 = user0[0:2] # 1st-3rd Letters
 user2 = user0[2:5] # 3rd-6th Letters
-user3 = user0[5:len(user0)] # 6th-Last Letters
-user4 = user3 + user2 + user1
+user3 = user0[5:l0] # 6th-11th Letters
+user4 = user0[10:15] # 11th-16th Letters
+user5 = user0[15:len(user0)] #16th Letter through the end of the string.
+# I use the slice[] function to chop up the username into smaller pieces.  
 
-print("Hello,",user4,"!  It is so nice to meet a new user.  I will do my best to be a good program.\n")
+user6 = user5 + user4 + user3 + user2 + user1 # Put the pieces back together. 
+
+print("Hello,",user6,"!  It is so nice to meet a new user.  I will do my best to be a good program.\n")
 name_correct = input("Is this really what I should call you?  [Type Yes or No, then press ENTER.]\n") # Create the variable name_correct and assign it a value. 
 name_correct = name_correct[0] # This assigns the name_correct variable to JUST the first letter of the user's answer. 
 name_correct = str.lower(name_correct) # This assigns the name_correct variable to the lower case version of that first letter.
