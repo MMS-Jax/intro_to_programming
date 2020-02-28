@@ -33,7 +33,7 @@ time.sleep(wait_time) # Pause.
 # The following lines of code create three slices of the user name and then rearranges them.  Remember you start counting at 0! 
 user1 = user0[0:2] # 1st-3rd Letters
 user2 = user0[2:5] # 3rd-6th Letters
-user3 = user0[5:l0] # 6th-11th Letters
+user3 = user0[5:10] # 6th-11th Letters
 user4 = user0[10:15] # 11th-16th Letters
 user5 = user0[15:len(user0)] #16th Letter through the end of the string.
 # I use the slice[] function to chop up the username into smaller pieces.  
